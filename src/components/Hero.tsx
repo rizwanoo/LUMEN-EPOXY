@@ -22,15 +22,14 @@ export const Hero: React.FC<HeroProps> = ({ onOpenQuote, onExploreFloors }) => {
 
   useEffect(() => {
     const ctx = gsap.context(() => {
-      // Background Image: Crisp, bright subtle zoom settle with zero blur delay
+      // Background Image: Immediate 100% crisp visibility with silky micro-scale settle
       if (bgImageRef.current) {
         gsap.fromTo(
           bgImageRef.current,
-          { scale: 1.06, opacity: 0.92 },
+          { scale: 1.04 },
           {
             scale: 1.0,
-            opacity: 1,
-            duration: 1.4,
+            duration: 1.2,
             ease: 'power2.out',
           }
         );

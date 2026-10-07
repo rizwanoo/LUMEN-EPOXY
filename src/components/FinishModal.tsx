@@ -50,6 +50,8 @@ export const FinishModal: React.FC<FinishModalProps> = ({ finish, onClose, onSel
                   alt={finish.title}
                   className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
                   referrerPolicy="no-referrer"
+                  loading="lazy"
+                  decoding="async"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-slate-950/70 via-transparent to-transparent" />
                 <div className="absolute bottom-4 left-4 right-4 text-white">

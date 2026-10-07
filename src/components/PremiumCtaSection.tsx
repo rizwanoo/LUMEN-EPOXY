@@ -15,6 +15,8 @@ export const PremiumCtaSection: React.FC<PremiumCtaSectionProps> = ({ onOpenQuot
         alt="Glossy showroom floor background"
         className="absolute inset-0 w-full h-full object-cover object-center opacity-25 mix-blend-luminosity scale-105"
         referrerPolicy="no-referrer"
+        loading="lazy"
+        decoding="async"
       />
 
       {/* Modern Light Sheen and Gradient Mask */}
