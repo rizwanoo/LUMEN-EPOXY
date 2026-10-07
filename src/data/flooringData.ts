@@ -1,5 +1,7 @@
 import { FlooringFinish, GalleryProject, ProcessStep } from '../types';
 
+import heroBrightHdLuxuryImg from '../assets/images/hero_bright_hd_luxury_epoxy_1791380052549.jpg';
+import heroEyeCatchingImg from '../assets/images/hero_eyecatching_bright_epoxy_1791379965269.jpg';
 import heroBrightLuxuryImg from '../assets/images/hero_bright_luxury_epoxy_1791378206828.jpg';
 import heroShowroomImg from '../assets/images/hero_epoxy_showroom_1791376381300.jpg';
 import heroEditorialBgImg from '../assets/images/hero_editorial_epoxy_bg_1791377869572.jpg';
@@ -11,7 +13,7 @@ import finishFlakeImg from '../assets/images/finish_flake_flooring_1791376438387
 import finishQuartzImg from '../assets/images/finish_quartz_aggregate_1791376451269.jpg';
 import finishHighglossImg from '../assets/images/finish_highgloss_mirror_1791376462594.jpg';
 
-export const HERO_BRIGHT_LUXURY_IMAGE = heroBrightLuxuryImg;
+export const HERO_BRIGHT_LUXURY_IMAGE = heroBrightHdLuxuryImg;
 export const HERO_IMAGE = heroShowroomImg;
 export const HERO_EDITORIAL_BG_IMAGE = heroEditorialBgImg;
 export const BEFORE_IMAGE = beforeFloorImg;
