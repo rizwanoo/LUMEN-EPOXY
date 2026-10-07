@@ -1,11 +1,22 @@
 import { FlooringFinish, GalleryProject, ProcessStep } from '../types';
 
-export const HERO_BRIGHT_LUXURY_IMAGE = '/src/assets/images/hero_bright_luxury_epoxy_1791378206828.jpg';
-export const HERO_IMAGE = '/src/assets/images/hero_epoxy_showroom_1791376381300.jpg';
-export const HERO_EDITORIAL_BG_IMAGE = '/src/assets/images/hero_editorial_epoxy_bg_1791377869572.jpg';
-export const BEFORE_IMAGE = '/src/assets/images/before_concrete_floor_1791376483819.jpg';
-export const AFTER_IMAGE = '/src/assets/images/after_epoxy_showpiece_1791376496344.jpg';
-export const AVIATION_IMAGE = '/src/assets/images/gallery_commercial_aviation_1791376509747.jpg';
+import heroBrightLuxuryImg from '../assets/images/hero_bright_luxury_epoxy_1791378206828.jpg';
+import heroShowroomImg from '../assets/images/hero_epoxy_showroom_1791376381300.jpg';
+import heroEditorialBgImg from '../assets/images/hero_editorial_epoxy_bg_1791377869572.jpg';
+import beforeFloorImg from '../assets/images/before_concrete_floor_1791376483819.jpg';
+import afterFloorImg from '../assets/images/after_epoxy_showpiece_1791376496344.jpg';
+import aviationImg from '../assets/images/gallery_commercial_aviation_1791376509747.jpg';
+import finishMetallicImg from '../assets/images/finish_metallic_epoxy_1791376421095.jpg';
+import finishFlakeImg from '../assets/images/finish_flake_flooring_1791376438387.jpg';
+import finishQuartzImg from '../assets/images/finish_quartz_aggregate_1791376451269.jpg';
+import finishHighglossImg from '../assets/images/finish_highgloss_mirror_1791376462594.jpg';
+
+export const HERO_BRIGHT_LUXURY_IMAGE = heroBrightLuxuryImg;
+export const HERO_IMAGE = heroShowroomImg;
+export const HERO_EDITORIAL_BG_IMAGE = heroEditorialBgImg;
+export const BEFORE_IMAGE = beforeFloorImg;
+export const AFTER_IMAGE = afterFloorImg;
+export const AVIATION_IMAGE = aviationImg;
 
 export const FLOORING_FINISHES: FlooringFinish[] = [
   {
@@ -14,7 +25,7 @@ export const FLOORING_FINISHES: FlooringFinish[] = [
     subtitle: 'Luxury Fluid Marble & 3D Depth',
     description: 'Luxury metallic movement with fluid patterns and dramatic reflections. Creates a bespoke, three-dimensional visual masterpiece.',
     longDescription: 'Engineered with specialized mica nanoparticles suspended in 100% solid industrial cycloaliphatic epoxy resin. When cured, natural currents create mesmerizing pearlescent waves, deep lava-flow textures, and liquid glass reflections.',
-    image: '/src/assets/images/finish_metallic_epoxy_1791376421095.jpg',
+    image: finishMetallicImg,
     texturePattern: 'Fluid Metallic Swirl',
     bestFor: ['Supercar Garages', 'Architectural Showrooms', 'Executive Lounges', 'Modern Living Spaces'],
     specs: {
@@ -45,7 +56,7 @@ export const FLOORING_FINISHES: FlooringFinish[] = [
     subtitle: 'High-Toughness Polyaspartic System',
     description: 'Durable decorative flooring with colorful flakes and a clean protective finish. Maximum durability for daily heavy vehicle traffic.',
     longDescription: 'A multi-tier composite system consisting of a moisture-tolerant epoxy base, a full broadcast of colored polymer vinyl flakes, and an ultra-tough UV-stable polyaspartic clear coat that never yellows.',
-    image: '/src/assets/images/finish_flake_flooring_1791376438387.jpg',
+    image: finishFlakeImg,
     texturePattern: 'Dense Polymeric Flake Blend',
     bestFor: ['Residential Garages', 'Workshops', 'Retail Boutiques', 'Educational Corridors'],
     specs: {
@@ -76,7 +87,7 @@ export const FLOORING_FINISHES: FlooringFinish[] = [
     subtitle: 'Heavy Commercial & Industrial Strength',
     description: 'Strong commercial-grade flooring with textured quartz aggregate. Built for extreme impact, heavy forklifts, and hygienic washdowns.',
     longDescription: 'Engineered with double-broadcast ceramic-coated quartz granules bound inside commercial epoxy resins. Ideal for environments requiring maximum compressive strength, chemical sanitization, and seamless cove-base integration.',
-    image: '/src/assets/images/finish_quartz_aggregate_1791376451269.jpg',
+    image: finishQuartzImg,
     texturePattern: 'Micro-Quartz Aggregate Matrix',
     bestFor: ['Cleanrooms & Labs', 'Commercial Kitchens', 'Automotive Service Centers', 'Warehouses'],
     specs: {
@@ -107,7 +118,7 @@ export const FLOORING_FINISHES: FlooringFinish[] = [
     subtitle: 'Ultra-Smooth Mirror Showroom Surface',
     description: 'Ultra-smooth reflective finish designed for premium garages and showrooms. Pure, unobstructed mirror reflections for modern luxury.',
     longDescription: 'Self-leveling 100% solids epoxy formulation finished with a nano-ceramic high-gloss clear shield. Creates a perfectly level, monolithic plane with immaculate mirror reflections of ceiling architecture and vehicles.',
-    image: '/src/assets/images/finish_highgloss_mirror_1791376462594.jpg',
+    image: finishHighglossImg,
     texturePattern: 'Monolithic Liquid Glass',
     bestFor: ['Dealership Showrooms', 'Aircraft Hangars', 'Contemporary Art Studios', 'Luxury Residences'],
     specs: {
@@ -246,7 +257,7 @@ export const GALLERY_PROJECTS: GalleryProject[] = [
     finishId: 'metallic',
     location: 'Miami Beach, FL',
     duration: '2 Days',
-    image: '/src/assets/images/finish_metallic_epoxy_1791376421095.jpg',
+    image: finishMetallicImg,
     description: 'Seamless open-concept residential flooring with soft metallic wave movement and zero grout joints.',
     tags: ['Residential', 'Cobalt Swirl', 'Seamless', '2,200 sq ft'],
   },
@@ -260,7 +271,7 @@ export const GALLERY_PROJECTS: GalleryProject[] = [
     finishId: 'flake',
     location: 'Austin, TX',
     duration: '2 Days',
-    image: '/src/assets/images/finish_flake_flooring_1791376438387.jpg',
+    image: finishFlakeImg,
     description: 'High-traction decorative flake floor engineered for vehicle lifts, tool boxes, and heavy engine fluid spills.',
     tags: ['Workshop', 'Impact Resistant', 'Anti-Slip', '3,200 sq ft'],
   },
@@ -274,7 +285,7 @@ export const GALLERY_PROJECTS: GalleryProject[] = [
     finishId: 'quartz',
     location: 'Cambridge, MA',
     duration: '4 Days',
-    image: '/src/assets/images/finish_quartz_aggregate_1791376451269.jpg',
+    image: finishQuartzImg,
     description: 'Hygienic USDA-compliant quartz flooring with integral radius cove base and extreme compressive strength.',
     tags: ['Cleanroom', 'Hygienic', 'Quartz Aggregate', '6,500 sq ft'],
   },
