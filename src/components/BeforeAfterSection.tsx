@@ -89,6 +89,8 @@ export const BeforeAfterSection: React.FC<BeforeAfterSectionProps> = ({ onOpenQu
               alt="Transformed garage floor with high-gloss epoxy finish"
               className="absolute inset-0 w-full h-full object-cover object-center pointer-events-none"
               referrerPolicy="no-referrer"
+              loading="lazy"
+              decoding="async"
             />
 
             {/* AFTER Label Tag */}
@@ -108,6 +110,8 @@ export const BeforeAfterSection: React.FC<BeforeAfterSectionProps> = ({ onOpenQu
                 className="absolute inset-0 w-full h-full object-cover object-center max-w-none"
                 style={{ width: containerRef.current ? `${containerRef.current.clientWidth}px` : '100%' }}
                 referrerPolicy="no-referrer"
+                loading="lazy"
+                decoding="async"
               />
 
               {/* BEFORE Label Tag */}

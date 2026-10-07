@@ -45,6 +45,8 @@ export const LightboxModal: React.FC<LightboxModalProps> = ({ project, onClose, 
             alt={project.title}
             className="w-full h-full object-cover object-center"
             referrerPolicy="no-referrer"
+            loading="lazy"
+            decoding="async"
           />
           <div className="absolute inset-0 bg-gradient-to-t from-slate-950/80 via-transparent to-transparent pointer-events-none" />
 
